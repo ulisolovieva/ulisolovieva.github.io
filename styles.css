@@ -1,16 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Garamond; 
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #c8d4c2;
 }
 
 header {
-    background: #333;
+    background: #6a9875;
     color: #fff;
-    padding: 1em 0;
+    padding: 2em 0;
     text-align: center;
+}
+
+.header-img {
+    height: 100px; /* Adjust height as needed */
+    margin-right: 15px;
+    border-radius:50%; /* Makes the image round */
 }
 
 main {
@@ -24,7 +30,7 @@ section {
 footer {
     text-align: center;
     padding: 1em 0;
-    background: #333;
+    background: #6a9875;
     color: #fff;
     position: fixed;
     width: 100%;
